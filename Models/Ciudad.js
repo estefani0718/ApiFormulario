@@ -1,4 +1,4 @@
-import connection from "../Utils/db,js";
+import connection from "../Utils/db.js";
 
 class Ciudads{
 

@@ -1,4 +1,4 @@
-import connection from "../utils/db.js";
+import connection from "../Utils/db.js";
 //  
 class Usuarios{
    
