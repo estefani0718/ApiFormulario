@@ -1,10 +1,7 @@
 import{ connection }from "../Utils/db.js";
 class Generos{
 
-    /**
-   * Metodo para obtener los registros de la base de datos
-   * @returns {Array} Listado de los generos de un arreglo.
-   */
+   
   async getAll() {
     try {
       const [rows] = await connection.query("SELECT * FROM Generos");
